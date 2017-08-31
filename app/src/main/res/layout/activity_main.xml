@@ -37,4 +37,22 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintHorizontal_bias="0.505" />
 
+    <com.beardedhen.androidbootstrap.BootstrapButton
+        android:id="@+id/btnLeaked"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Go To Leaked Activity(Check logcat)"
+        android:textStyle="bold"
+        app:bootstrapBrand="danger"
+        app:bootstrapSize="lg"
+        app:buttonMode="regular"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv1"
+        app:roundedCorners="true"
+        app:showOutline="false" />
+
 </android.support.constraint.ConstraintLayout>
